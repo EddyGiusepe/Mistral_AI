@@ -1,0 +1,14 @@
+[project]
+name = "projeto-mistral-ai"
+version = "0.1.0"
+description = "Aqui vamos a usar os modelos do MistralAI, criar projetos,...etc"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["ipykernel>=6.29.5",
+    "mistralai>=1.9.2",
+    "python-dotenv>=1.1.1",]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
